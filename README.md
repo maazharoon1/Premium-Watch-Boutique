@@ -1,0 +1,34 @@
+# Watches website template
+
+Edit `brand.json` for each new website. It controls the header logo, hero name, footer, About, Contact, checkout links, page titles and sharing descriptions.
+
+- `name`: store name
+- `location`: city and state
+- `facebookUrl`: the store Facebook profile
+- `locationUrl`: the city Facebook page
+- `description`: store description
+
+## Preview and build
+
+```powershell
+npm install
+npm run dev
+npm run lint
+npm run build
+```
+
+Restart the preview after changing brand.json. The build generates the updated website in dist and updates metadata.json automatically.
+
+## Publish to a separate GitHub repository
+
+Create the new GitHub repository first. From the folder containing this template, use its actual URL:
+
+```powershell
+git remote set-url origin https://github.com/YOUR-USER/YOUR-NEW-REPO.git
+git remote -v
+git add .
+git commit -m "Customize store details"
+git push -u origin main
+```
+
+Check the remote URL before pushing each store. Renaming or copying the folder does not change the remote URL.

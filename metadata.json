@@ -1,0 +1,8 @@
+{
+  "name": "Premium Watch Boutique",
+  "description": "Discover Premium Watch Boutique. A curated collection of exceptional timepieces defined by precision, craftsmanship, and timeless design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
